@@ -1,0 +1,47 @@
+*{
+     margin:0;
+     padding:0;
+     box-sizing:border-box;
+}
+
+html{
+    font-size: 62.5%;   
+    /* when we write above font-size then  */
+    /* 1 rem = 10px */
+}
+
+.header{
+    padding: 0 4.8rem; /* top/bottom 0px and left/right 48px */
+    height: 4rem;   /* height 100px */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e7f5ff;
+}
+
+.header .logo{
+    /* height: 7rem; */
+    font-size: 1.5rem;
+}
+
+.navbar-list{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+
+.navbar-link:link,
+.navbar-link:visited{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #212529;
+}
+
+.navbar-link:hover,
+.navbar-link:active
+{
+    color: #364fc7;
+    font-weight: 500;
+    transition: all 0.3s;
+}
